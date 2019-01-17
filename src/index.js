@@ -5,8 +5,9 @@ const offset = document.getElementById('offset')
 const clave1 = document.getElementById('clave1')
 const bcifrar = document.getElementById('bcifrar')
 
-const clave2= document.getElementById('clave2')
+//const clave2= document.getElementById('clave2')
 const bdescif = document.getElementById ('bdescif')
+const clean = document.getElementById ('clean')
 
 
 
@@ -26,6 +27,10 @@ document.getElementById('clave2').value = window.cipher.decode(numero,texto);
 
 })
 
+const cleaner = () => {
+location.reload(true);
+};
+clean.addEventListener("click",cleaner);
 
 
 
