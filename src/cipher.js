@@ -22,10 +22,9 @@ let formula = (codascii + 65 - parseInt(numero)) % 26 + 65;
 let claveuno = String.fromCharCode(formula);
 rescifrado += claveuno;
 
-console.log (rescifrado)
 }
+return rescifrado;
   }
-
   
 };
 
