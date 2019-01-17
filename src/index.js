@@ -10,7 +10,6 @@ const bdescif = document.getElementById ('bdescif')
 
 
 
-
 bcifrar.addEventListener('click', () => {
 let numero = offset.value;
 let texto = clave1.value;
@@ -21,8 +20,10 @@ document.getElementById('clave2').value = window.cipher.encode(numero,texto);
 })
 
 bdescif.addEventListener('click', ()=> {
-let texto2 = clave2.value;
-console.log(texto2)
+    let numero = offset.value;
+    let texto = clave1.value;
+document.getElementById('clave2').value = window.cipher.decode(numero,texto);
+
 })
 
 
