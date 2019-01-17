@@ -1,16 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-      <h2>Si se vera</h2>
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!--Pantalla-->
+  <div id="pantalla">
+    <hr>
+    <p>Inicio</p>
+    <p>Usuario</p>
+      <br>
+      <!--Offset-->
+      <p><b>Ingresa tu número clave</b></p>
+        <input type="number" id="offset" placeholder="Ingresa Numero">
+      
+      <!--Inserta clave-->
+      <p><b>Escribe clave secreta</b></p>
+      <input type="text" id="clave1" placeholder="Ingresa texto">
+      <br>
+      
+      <button id="bcifrar" class="boton">Cifrar</button>
+      
+      <!-- Resultado clave-->
+      <p><b>Tu clave codificada es</b></p>
+      <input type="text" id="clave2" >
+      <br>
+      
+      <button id="bdescif" class="boton">Descifrar</button>
+      
+      <!--Borrar -->
+      <br><br>
+      <button id="clean" type="reset" class="boton">Borrar todo</button>
+      <hr>
     </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+    
+    
+    
+    <!--<textarea id="caja1" name="entraclave" rows="10" cols="40" value ="texto"></textarea>-->
+    
+
+
+
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>

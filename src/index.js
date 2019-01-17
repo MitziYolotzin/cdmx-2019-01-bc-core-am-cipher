@@ -1,0 +1,52 @@
+
+//Guarda valor offset y texto
+
+const offset = document.getElementById('offset')
+const clave1 = document.getElementById('clave1')
+const bcifrar = document.getElementById('bcifrar')
+
+const clave2= document.getElementById('clave2')
+const bdescif = document.getElementById ('bdescif')
+
+
+bcifrar.addEventListener('click', () => {
+let numero = offset.value;
+let texto = clave1.value;
+window.cipher.encode(numero,texto)
+//console.log(numero,texto)
+})
+
+bdescif.addEventListener('click', ()=> {
+let texto2 = clave2.value;
+console.log(texto2)
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Captura valor entero
+//let entero = parseInt(document.getElementById('offset').value);
+
+
+
+
