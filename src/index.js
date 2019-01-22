@@ -19,9 +19,9 @@ document.getElementById('clave2').value = window.cipher.encode(numero,texto);
 })
 //Boton descifrar, guarda valores
 bdescif.addEventListener('click', ()=> {
-    let numero2 = offset.value;
-    let texto2 = clave1.value;
-document.getElementById('clave2').value = window.cipher.decode(numero2,texto2);
+    let numero = offset.value;
+    let texto = clave1.value;
+document.getElementById('clave2').value = window.cipher.decode(numero,texto);
 
 })
 
@@ -30,31 +30,3 @@ const cleaner = () => {
 location.reload(true);
 };
 clean.addEventListener("click",cleaner);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
