@@ -15,9 +15,10 @@ window.cipher = {
 
 let rescifrado = "";
 for (let i = 0; i < texto.length; i++) {
-  if(texto.charCodeAt(i) >= 65 && texto.charCodeAt(i) <= 90){
 
-//Mayusculas ASCII
+  //Mayusculas ASCII
+if(texto.charCodeAt(i) >= 65 && texto.charCodeAt(i) <= 90){
+
   let formula = (texto.charCodeAt(i) - 65 + parseInt(numero)) % 26 + 65;
   let claveuno = String.fromCharCode(formula);
   rescifrado += claveuno;
@@ -26,8 +27,9 @@ for (let i = 0; i < texto.length; i++) {
   let formula = (texto.charCodeAt(i) - 97 + parseInt(numero)) % 26 + 97;
   let claveuno = String.fromCharCode(formula);
   rescifrado += claveuno;
-//Signos ASCII
+
 }else {
+  //Signos ASCII
   let claveuno = String.fromCharCode(texto.charCodeAt(i));
   rescifrado += claveuno;
 }
@@ -44,12 +46,12 @@ decode: (numero, texto) => {
     let claveuno = String.fromCharCode(formula);
     rescifrado += claveuno;
 //Minusculas ASCII
-  }else if(texto.charCodeAt(i) >= 97 && texto.charCodeAt(i) <= 122){
+  } else if(texto.charCodeAt(i) >= 97 && texto.charCodeAt(i) <= 122){
     let formula = (texto.charCodeAt(i) - 122 - parseInt(numero)) % 26 + 122;
     let claveuno = String.fromCharCode(formula);
     rescifrado += claveuno;
 //Signos ASCII
-  }else {
+  } else {
     let claveuno = String.fromCharCode(texto.charCodeAt(i));
     rescifrado += claveuno;
   }
