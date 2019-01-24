@@ -1,33 +1,17 @@
 /*
-p, h1 {
-    color: black;
-    font-size: 10px;
-    text-align: center;
-  }
-
-  pantalla1 {
-  display: block;
+pantalla1 {
+display: block;
 }
-
-  */
-*{
-box-sizing: content-box;
-}
-  body{
-/*background-image: url("https://images4.alphacoders.com/286/286946.jpg");*/
-background-image: url("https://images4.alphacoders.com/278/278046.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-    text-align: center;
-
-  }
-/*
-  h1:before {
-  content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2000px-NASA_logo.svg.png"); }
-  width: 10%;
 */
-#marq{
-  color: #FFFFFF;
+*{
+  box-sizing: content-box;
+}
+
+body{
+  background-image: url("https://images4.alphacoders.com/278/278046.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .foto1 {
@@ -37,128 +21,122 @@ background-repeat: no-repeat;
     text-align: center;
     font-family: 'Rajdhani', sans-serif;
     font-size: 55px;
-font-weight: 700;
-color: #FFFFFF;
-/*background: #333333;*/
-background-color: transparent;
-text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    font-weight: 700;
+    color: #FFFFFF;
+    /*background: #333333;*/
+    background-color: transparent;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
   }
 
-p{
-  text-align: center;
-  font-family: 'Rajdhani', sans-serif;
-  font-size: 23px;
-  color: white;
-}
-/*Barras puntitos
+  p{
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 23px;
+    color: white;
+  }
+  /*Barras puntitos
   hr {
-    border-top: 3px dotted white;
-    opacity: 0.7;
+  border-top: 3px dotted white;
+  opacity: 0.7;
   } */
 
+  .boton {
 
-.boton {
-  /*
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);*/
-  background-color: #f1f1f1;
-  color: #eb00ff;
-  font-family: 'Play', sans-serif;
-  font-size: 16px;
-  padding: 16px 27px;
-  border: none;
-  cursor: pointer;
-  border-radius: 20px;
-  text-align: center;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  transition: 0.3s;
-}
+    background-color: #f1f1f1;
+    color: #eb00ff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    padding: 16px 27px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transition: 0.3s;
+  }
 
-.boton:hover {
-  background-color: black;
-  color: #ffffff;
-  border: 0px solid #8000ff;
-  cursor: pointer;
-}
+  .boton:hover {
+    background-color: black;
+    color: #ffffff;
+    border: 0px solid #8000ff;
+    cursor: pointer;
+  }
 
 
-.caja1, .cajaN, .caja2 {
- background-color: #000000;
- color: #ffffff;
- width: 15em;
- height: 1em;
- margin: 0 auto 15px auto;
- padding: 5px;
- border: 1px solid #ccc;
- font-size: 15px;
- font-weight: 400;
-font-family: 'Play', sans-serif;
+  .caja1, .cajaN, .caja2 {
+    background-color: #000000;
+    color: #ffffff;
+    width: 15em;
+    height: 1em;
+    margin: 0 auto 15px auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Play', sans-serif;
 
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    behavior: url(border-radius.htc);
+  }
 
- -moz-border-radius: 11px;
- -webkit-border-radius: 11px;
- border-radius: 11px;
- behavior: url(border-radius.htc);
-    }
+  #offset, #clave1::placeholder {
+    color: #bdbaba;
+    text-align: center;
+  }
 
-    #offset, #clave1::placeholder {
-  color: #bdbaba;
-  text-align: center;
-}
-#clave2::placeholder {
-color: #bdbaba;
-text-align: center;
-}
+  #clave2::placeholder {
+    color: #bdbaba;
+    text-align: center;
+  }
 
-/*Hover Instrucciones*/
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-  color: #d009b0;
-  font-family: 'Play', sans-serif;
-  font-size: 22px;
-  cursor: cell;
+  /*Hover popUp Instrucciones*/
+  .instrucc {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    color: #d009b0;
+    font-family: 'Play', sans-serif;
+    font-size: 21px;
+    cursor: cell;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-decoration: underline;
+  }
 
+  .instrucc .textInPop {
+    visibility: hidden;
+    width: 350px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 50%;
+    margin-left: 180px;
+  }
 
-}
+  .textInPop{
+    font-size: 20px;
+  }
 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 350px;
-  background-color: black;
-  color: #fff;
-  text-align: left;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 30%;
-  left: 50%;
-  margin-left: 180px;
-}
+  .instrucc .textInPop::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+  }
 
-.tooltiptext{
-  font-size: 20px;
-}
+  .instrucc:hover .textInPop {
+    visibility: visible;
 
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent black transparent;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-
-}
+  }

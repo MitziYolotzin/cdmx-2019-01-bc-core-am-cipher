@@ -1,5 +1,5 @@
 
-//Guarda valor offset y texto
+//Variables guardar valor offset y textos
 const offset = document.getElementById('offset')
 const clave1 = document.getElementById('clave1')
 const bcifrar = document.getElementById('bcifrar')
@@ -9,18 +9,16 @@ const borra = document.getElementById ('borra')
 
 //Boton cifrar, guardar valores
 bcifrar.addEventListener('click', () => {
-let numero = offset.value;
-let texto = clave1.value;
-document.getElementById('clave2').value = window.cipher.encode(numero,texto);
-//console.log(numero,texto)
-
+  let numero = offset.value;
+  let texto = clave1.value;
+  document.getElementById('clave2').value = window.cipher.encode(numero,texto);
+  //console.log(numero,texto)
 })
 //Boton descifrar, guarda valores
 bdescif.addEventListener('click', ()=> {
-    let numero = offset.value;
-    let texto = clave1.value;
-document.getElementById('clave2').value = window.cipher.decode(numero,texto);
-
+  let numero = offset.value;
+  let texto = clave1.value;
+  document.getElementById('clave2').value = window.cipher.decode(numero,texto);
 })
 //Boton borrar info
 const vaciar = () => {
@@ -31,7 +29,7 @@ const vaciar = () => {
 borra.addEventListener('click', vaciar);
 
 /*
-//Boton borrar info
+//Boton refresca pag
 const cleaner = () => {
 location.reload(true);
 };
