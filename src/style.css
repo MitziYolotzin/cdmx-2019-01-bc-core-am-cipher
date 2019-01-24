@@ -26,6 +26,9 @@ background-repeat: no-repeat;
   content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2000px-NASA_logo.svg.png"); }
   width: 10%;
 */
+#marq{
+  color: #FFFFFF;
+}
 
 .foto1 {
   width: 10%; }
@@ -47,11 +50,11 @@ p{
   font-size: 23px;
   color: white;
 }
-/*Barras puntitos */
+/*Barras puntitos
   hr {
     border-top: 3px dotted white;
     opacity: 0.7;
-  }
+  } */
 
 
 .boton {
