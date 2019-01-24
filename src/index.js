@@ -25,7 +25,7 @@ document.getElementById('clave2').value = window.cipher.decode(numero,texto);
 //Boton borrar info
 const vaciar = () => {
   document.getElementById('offset').value='';
-  document.getElementById('clave2').innerHTML='';
+  document.getElementById('clave2').value='';
   document.getElementById('clave1').value='';
 }
 borra.addEventListener('click', vaciar);
