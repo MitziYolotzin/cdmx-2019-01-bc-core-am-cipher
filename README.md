@@ -81,10 +81,13 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 Para conocer el proceso de diseño con el que se desarrollo este producto consultar el siguiente link:
 
-###Boceto
-<img src="https://i.ibb.co/4PpTW55/screen2-2.jpg" alt="screen2-2" border="0">
+### Boceto
+Primeros bocetos de la interfaz. Era muy sencillo, no se sabía a que pertenecía,los botones no eran muy funcionales en posición y diseño. Se realizaron mejoras y cambios de color.
 
-###Link del proyecto:
+<center><img src="https://i.ibb.co/pfyC1vL/screen2.jpg" alt="screen2" border="0" width=50%> <img src="https://i.ibb.co/4PpTW55/screen2-2.jpg" alt="screen2-2" border="0" width=50%></center>
+
+
+### Link del proyecto final:
 [Secret Space Mission](https://mitziyolotzin.github.io/cdmx-2019-01-bc-core-am-cipher/src/)
 
 ## Autores
