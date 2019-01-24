@@ -3,7 +3,7 @@
 const offset = document.getElementById('offset')
 const clave1 = document.getElementById('clave1')
 const bcifrar = document.getElementById('bcifrar')
-const clave2 = document.getElementById('clave2')
+//const clave2 = document.getElementById('clave2')
 const bdescif = document.getElementById ('bdescif')
 const borra = document.getElementById ('borra')
 
