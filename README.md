@@ -82,7 +82,7 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 Para conocer el proceso de diseño con el que se desarrollo este producto consultar el siguiente link:
 
 ###Boceto
-[Previo](https://drive.google.com/open?id=1IRl9r_R_K7O-qEmesuI6jdc_SDikJ3L3)
+<img src="https://i.ibb.co/4PpTW55/screen2-2.jpg" alt="screen2-2" border="0">
 
 ###Link del proyecto:
 [Secret Space Mission](https://mitziyolotzin.github.io/cdmx-2019-01-bc-core-am-cipher/src/)
