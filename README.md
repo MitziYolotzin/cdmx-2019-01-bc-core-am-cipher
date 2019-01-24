@@ -77,7 +77,7 @@ En cuanto a reglas/guías de estilo en sí,
 usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 # UX-UI
-###Usuario
+### Usuario
 
 Para conocer el proceso de diseño con el que se desarrollo este producto consultar el siguiente link:
 
@@ -86,6 +86,8 @@ Primeros bocetos de la interfaz. Era muy sencillo, no se sabía a que pertenecí
 
 <center><img src="https://i.ibb.co/pfyC1vL/screen2.jpg" alt="screen2" border="0" width=50%> <img src="https://i.ibb.co/4PpTW55/screen2-2.jpg" alt="screen2-2" border="0" width=50%></center>
 
+### Diseño Final
+<center><img src="https://i.ibb.co/b7sjdWC/Captura-de-pantalla-2019-01-24-a-la-s-17-37-55.png" alt="Captura-de-pantalla-2019-01-24-a-la-s-17-37-55" border="0" width=80%></center>
 
 ### Link del proyecto final:
 [Secret Space Mission](https://mitziyolotzin.github.io/cdmx-2019-01-bc-core-am-cipher/src/)
