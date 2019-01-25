@@ -1,6 +1,5 @@
 # Secret Space Mission
 :rocket: :milky_way:
-##
 
 Secret Space Mission es un generador de claves secretas que pueden ser cifradas o descifradas, permite obtenerlas para ser parte de misiones espaciales, funciona por medio del método [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher). El cual corresponde a una técnica de codificación por sustitución, donde cada letra de un texto es reemplazada por otra letra acorde a un número determinado de posiciones (desplazamiento) en el alfabeto.
 
@@ -33,7 +32,7 @@ Por ejemplo, si usamos un desplazamiento - número (_offset_) de 3 posiciones:
 6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
    pruebas unitarias (unit tests) con el comando `npm run test`.
 
-##Consideraciones técnicas
+## Consideraciones técnicas
 Este proyecto está desarrollado con:
 
 - EMS6 JavaScriptpuro [JSVanilla](https://medium.com/laboratoria-developers/vanillajs-vs-jquery-31e623bbd46e).
@@ -45,7 +44,8 @@ Este proyecto está desarrollado con:
 ## Pruebas
 Las pruebas automatizadas para este sistema requieren de una instalación simple a través del comando npm install. Los tests verifican que regrese una letra acorde a la posición ingresada en el offset. Analiza que la función  cifrar retorne "HIJKLMNOPQRSTUVWXYZABCDEFG" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 33; y que la función decifrar retorne retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "HIJKLMNOPQRSTUVWXYZABCDEFG" con offset 33. No cifra caracteres especiales y espacios (" !@" debería retornar  " !@"', ).
 
-###Estilo
+### Estilo
+
 El _boilerplate_ contiene una estructura de archivos como punto de partida así
 como toda la configuración de dependencias y tests de ejemplo:
 ```text
@@ -79,7 +79,21 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 # UX-UI
 ### Usuario
 
-Para conocer el proceso de diseño con el que se desarrollo este producto consultar el siguiente link:
+> Desde inicio la idea fue que pudiera ser utilizado en un centro de investigación y desarrollo científico. Se eligió a la NASA (Administración Nacional de la Aeronáutica y del Espacio), enfocada a la investigación aeronáutica y aeroespacial.
+
+> Los principales usuarios serán científicos, investigadores, astronautas, directivos, capitanes de alto rango.
+
+###### Principales usuarios de producto
+> Los principales usuarios serán personas seleccionadas, que han llegado a una etapa final en la cual deben tramitar y accesar a nuevas áreas de alta seguridad para obtener claves que les permitan seguir preparándose para viajar a misiones secretas espaciales asignadas.
+
+###### Objetivos del usuario
+> Los principales usuarios serán personas seleccionadas, que han llegado a una etapa final en la cual deben tramitar y accesar a nuevas áreas de alta seguridad para obtener claves que les permitan seguir preparándose para viajar a misiones secretas espaciales asignadas.
+
+###### Resolviendo el problema del usuario
+> Acceso privado de personal autorizado, misiones secretas, colaboradores y desarrolladores involucrados, solo los que conocen el proyecto o tema de investigación.
+
+> Proteger información sensible, vulnerable, mantener máxima seguridad, antirrobo.
+Resguardar la seguridad e integridad de los tripulantes.
 
 ### Boceto
 Primeros bocetos de la interfaz. Era muy sencillo, no se sabía a que pertenecía,los botones no eran muy funcionales en posición y diseño. Se realizaron mejoras y cambios de color.
@@ -89,12 +103,13 @@ Primeros bocetos de la interfaz. Era muy sencillo, no se sabía a que pertenecí
 ### Diseño Final
 <center><img src="https://i.ibb.co/b7sjdWC/Captura-de-pantalla-2019-01-24-a-la-s-17-37-55.png" alt="Captura-de-pantalla-2019-01-24-a-la-s-17-37-55" border="0" width=80%></center>
 
-### Link del proyecto final:
-[Secret Space Mission](https://mitziyolotzin.github.io/cdmx-2019-01-bc-core-am-cipher/src/)
+## Link del proyecto final:
+
+[Secret Space Mission Git](https://mitziyolotzin.github.io/cdmx-2019-01-bc-core-am-cipher/src/)
 
 ## Autores
--Mitzi Yolotzin Olvera Castillo
+Mitzi Yolotzin Olvera Castillo
 
-## Expresiones de gratitud
+### Expresiones de gratitud
 
 Agradezco el apoyo de mi squad "Guacacoders" :green_heart:  y a cada uno de los coaches y team de Laboratoria. :yellow_heart:
