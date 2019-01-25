@@ -77,37 +77,35 @@ En cuanto a reglas/guías de estilo en sí,
 usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 # UX-UI
-### Usuario
 
-> Desde inicio la idea fue que pudiera ser utilizado en un centro de investigación y desarrollo científico. Se eligió a la NASA (Administración Nacional de la Aeronáutica y del Espacio), enfocada a la investigación aeronáutica y aeroespacial.
+* Desde inicio la idea fue que pudiera ser utilizado en un centro de investigación y desarrollo científico. Se eligió a la NASA (Administración Nacional de la Aeronáutica y del Espacio), enfocada a la investigación aeronáutica y aeroespacial.
 
-> Los principales usuarios serán científicos, investigadores, astronautas, directivos, capitanes de alto rango.
+### Principales usuarios de producto
+* Los principales usuarios serán científicos, investigadores, astronautas, directivos, capitanes de alto rango, pilotos.
 
-###### Principales usuarios de producto
-> Los principales usuarios serán personas seleccionadas, que han llegado a una etapa final en la cual deben tramitar y accesar a nuevas áreas de alta seguridad para obtener claves que les permitan seguir preparándose para viajar a misiones secretas espaciales asignadas.
+### Objetivos del usuario
+* Los usuarios serán personas seleccionadas, que han llegado a una etapa final en la cual deben tramitar y accesar a nuevas áreas de alta seguridad para obtener claves que les permitan seguir preparándose para viajar a misiones secretas espaciales asignadas.
 
-###### Objetivos del usuario
-> Los principales usuarios serán personas seleccionadas, que han llegado a una etapa final en la cual deben tramitar y accesar a nuevas áreas de alta seguridad para obtener claves que les permitan seguir preparándose para viajar a misiones secretas espaciales asignadas.
+### Resolviendo el problema del usuario
+* Acceso privado de personal autorizado, resguardar misiones secretas, cuidar la identidad de colaboradores y desarrolladores involucrados, control del personal que conoce el proyecto o tema de investigación para la misión.
 
-###### Resolviendo el problema del usuario
-> Acceso privado de personal autorizado, misiones secretas, colaboradores y desarrolladores involucrados, solo los que conocen el proyecto o tema de investigación.
+* Proteger información sensible, vulnerable, mantener máxima seguridad, antirrobo. Resguardar la seguridad e integridad de los tripulantes.
 
-> Proteger información sensible, vulnerable, mantener máxima seguridad, antirrobo.
-Resguardar la seguridad e integridad de los tripulantes.
+* Secret Space Mission será parte del apoyo en los filtros y protocolos especiales de seguridad.
 
-### Boceto
+## Boceto
 Primeros bocetos de la interfaz. Era muy sencillo, no se sabía a que pertenecía,los botones no eran muy funcionales en posición y diseño. Se realizaron mejoras y cambios de color.
 
 <center><img src="https://i.ibb.co/pfyC1vL/screen2.jpg" alt="screen2" border="0" width=50%> <img src="https://i.ibb.co/4PpTW55/screen2-2.jpg" alt="screen2-2" border="0" width=50%></center>
 
-### Diseño Final
+## Diseño Final
 <center><img src="https://i.ibb.co/b7sjdWC/Captura-de-pantalla-2019-01-24-a-la-s-17-37-55.png" alt="Captura-de-pantalla-2019-01-24-a-la-s-17-37-55" border="0" width=80%></center>
 
-## Link del proyecto final:
+# Link del proyecto final
 
 [Secret Space Mission Git](https://mitziyolotzin.github.io/cdmx-2019-01-bc-core-am-cipher/src/)
 
-## Autores
+# Autores
 Mitzi Yolotzin Olvera Castillo
 
 ### Expresiones de gratitud
