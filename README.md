@@ -99,13 +99,15 @@ Primeros bocetos de la interfaz. Era muy sencillo, no se sabía a que pertenecí
 <center><img src="https://i.ibb.co/pfyC1vL/screen2.jpg" alt="screen2" border="0" width=50%> <img src="https://i.ibb.co/4PpTW55/screen2-2.jpg" alt="screen2-2" border="0" width=50%></center>
 
 ## Diseño Final
+Se realizaron mejoras para el diseño de botones, inputs para los datos, fondo llamativo e inspirador del universo. Colores y diseño con tendencia a tema futurista.
+
 <center><img src="https://i.ibb.co/b7sjdWC/Captura-de-pantalla-2019-01-24-a-la-s-17-37-55.png" alt="Captura-de-pantalla-2019-01-24-a-la-s-17-37-55" border="0" width=80%></center>
 
 # Link del proyecto final
 
-[Secret Space Mission Git](https://mitziyolotzin.github.io/cdmx-2019-01-bc-core-am-cipher/src/)
+[Secret Space Mission](https://mitziyolotzin.github.io/cdmx-2019-01-bc-core-am-cipher/src/)
 
-# Autores
+## Autores
 Mitzi Yolotzin Olvera Castillo
 
 ### Expresiones de gratitud
