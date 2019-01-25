@@ -1,5 +1,4 @@
-# Secret Space Mission
-:rocket: :milky_way:
+# Secret Space Mission :rocket: :milky_way:
 
 Secret Space Mission es un generador de claves secretas que pueden ser cifradas o descifradas, permite obtenerlas para ser parte de misiones espaciales, funciona por medio del método [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher). El cual corresponde a una técnica de codificación por sustitución, donde cada letra de un texto es reemplazada por otra letra acorde a un número determinado de posiciones (desplazamiento) en el alfabeto.
 
@@ -9,6 +8,8 @@ Por ejemplo, si usamos un desplazamiento - número (_offset_) de 3 posiciones:
 - La palabra CASA se cifra como FDVD.
 - Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 - Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+
+Secret Space Mission permite cifrar y descifrar minúsculas, mayúsculas. Permite el ingreso de caracteres especiales y espacios.
 
 ## Pre-requisitos e instalación
 1. Antes que nada, asegúrate de tener un editor de texto en
@@ -80,26 +81,26 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 * Desde inicio la idea fue que pudiera ser utilizado en un centro de investigación y desarrollo científico. Se eligió a la NASA (Administración Nacional de la Aeronáutica y del Espacio), enfocada a la investigación aeronáutica y aeroespacial.
 
-### Principales usuarios de producto
+### Usuarios
 * Los principales usuarios serán científicos, investigadores, astronautas, directivos, capitanes de alto rango, pilotos.
 
 ### Objetivos del usuario
 * Los usuarios serán personas seleccionadas, que han llegado a una etapa final en la cual deben tramitar y accesar a nuevas áreas de alta seguridad para obtener claves que les permitan seguir preparándose para viajar a misiones secretas espaciales asignadas.
 
 ### Resolviendo el problema del usuario
-* Acceso privado de personal autorizado, resguardar misiones secretas, cuidar la identidad de colaboradores y desarrolladores involucrados, control del personal que conoce el proyecto o tema de investigación para la misión.
+* Permite el uso de creación de claves para el acceso privado de personal autorizado, resguardar misiones secretas, cuidar la identidad de colaboradores y desarrolladores involucrados, control del personal que conoce el proyecto o tema de investigación para la misión.
 
 * Proteger información sensible, vulnerable, mantener máxima seguridad, antirrobo. Resguardar la seguridad e integridad de los tripulantes.
 
 * Secret Space Mission será parte del apoyo en los filtros y protocolos especiales de seguridad.
 
 ## Boceto
-Primeros bocetos de la interfaz. Era muy sencillo, no se sabía a que pertenecía,los botones no eran muy funcionales en posición y diseño. Se realizaron mejoras y cambios de color.
+Primeros bocetos de la interfaz. Era muy sencillo, no se sabía a que pertenecía,los botones no eran muy funcionales en posición y diseño. Se realizaron mejoras y cambios de color, formas de botones, cambio de tipografía.
 
 <center><img src="https://i.ibb.co/pfyC1vL/screen2.jpg" alt="screen2" border="0" width=50%> <img src="https://i.ibb.co/4PpTW55/screen2-2.jpg" alt="screen2-2" border="0" width=50%></center>
 
 ## Diseño Final
-Se realizaron mejoras para el diseño de botones, inputs para los datos, fondo llamativo e inspirador del universo. Colores y diseño con tendencia a tema futurista.
+Se realizaron mejoras para el diseño de botones, alineación central de los elementos, inputs para los datos, cuadro de instrucciones flotantes (PopUp), fondo llamativo e inspirador del universo. Colores y diseño con tendencia a tema futurista.
 
 <center><img src="https://i.ibb.co/b7sjdWC/Captura-de-pantalla-2019-01-24-a-la-s-17-37-55.png" alt="Captura-de-pantalla-2019-01-24-a-la-s-17-37-55" border="0" width=80%></center>
 
